@@ -1,0 +1,52 @@
+@import '../../assets//css/global.scss';
+@import '../../assets//css/color.scss';
+
+.tab {
+    border-radius: 5px;
+    background: #fff;
+    min-height: 100px;
+    cursor: pointer;
+
+    & ul {
+        margin : 0;
+        padding: 0;
+    }
+}
+
+.side-tab {
+
+    & li {
+        list-style-type: none;
+        padding: .75rem 1.5rem;
+        border-bottom : 1px solid $neutral-1;
+        transition: all .15s ease-in-out;
+        
+        & p {
+            font-size: 14px;
+            line-height: 1.5;
+            color: $neutral-2;
+            transition: all .15s ease-in-out;
+        }
+
+        &:last-child {
+            border-bottom: none;
+        }
+
+        &:hover {
+            background-color: $primary;
+            
+            p {
+                color: #fff;
+            }
+
+        }
+    }
+}
+
+.active {
+    background-color: $primary;
+
+    & p {
+        color: #fff !important;
+    }
+}

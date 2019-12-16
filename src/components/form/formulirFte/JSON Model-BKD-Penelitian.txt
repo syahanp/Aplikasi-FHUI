@@ -1,0 +1,220 @@
+form1 : {
+monograf_inter : [
+    {
+        id : 1,
+        peran : '',
+        beban : '',
+        karya : ''
+    }
+],
+monograf_nasional : [
+    {
+        id : 1,
+        peran : '',
+        beban : '',
+        karya : ''
+    }
+],
+bookChapter_inter : [
+    {
+        id : 1,
+        peran : '',
+        beban : '',
+        karya : ''
+    }
+],
+bookChapter_nasional : [
+    {
+        id : 1,
+        peran : '',
+        beban : '',
+        karya : ''
+    }
+],
+bookReferensi_inter : [
+    {
+        id : 1,
+        peran : '',
+        beban : '',
+        karya : ''
+    }
+],
+bookReferensi_nasional : [
+    {
+        id : 1,
+        peran : '',
+        beban : '',
+        karya : ''
+    }
+],
+jurnal_interReputed : [
+    {
+        id : 1,
+        peran : '',
+        beban : '',
+        karya : ''
+    }
+],
+jurnal_inter : [
+    {
+        id : 1,
+        peran : '',
+        beban : '',
+        karya : ''
+    }
+],
+jurnal_nasionalReputed : [
+    {
+        id : 1,
+        peran : '',
+        beban : '',
+        karya : ''
+    }
+],
+jurnal_nasional : [
+    {
+        id : 1,
+        peran : '',
+        beban : '',
+        karya : ''
+    }
+],
+confMakalah_inter : [
+    {
+        id : 1,
+        peran : '',
+        beban : '',
+        karya : ''
+    }
+],
+confMakalah_nasional : [
+    {
+        id : 1,
+        peran : '',
+        beban : '',
+        karya : ''
+    }
+],
+confPoster_inter : [
+    {
+        id : 1,
+        peran : '',
+        beban : '',
+        karya : ''
+    }
+],
+confPoster_nasional : [
+    {
+        id : 1,
+        peran : '',
+        beban : '',
+        karya : ''
+    }
+],
+Koran : [
+    {
+        id : 1,
+        peran : '',
+        beban : '',
+        karya : ''
+    }
+],
+unpublished : [
+    {
+        id : 1,
+        peran : '',
+        beban : '',
+        karya : ''
+    }
+]
+},
+form2 : {
+edar : [
+    {
+        id : 1,
+        peran : '',
+        beban : '',
+        karya : ''
+    }
+]
+},
+form3 : {
+edar : [
+    {
+        id : 1,
+        peran : '',
+        beban : '',
+        karya : ''
+    }
+]
+},
+form4 : {
+inter : [
+    {
+        id : 1,
+        peran : '',
+        beban : '',
+        karya : ''
+    }
+],
+nasional : [
+    {
+        id : 1,
+        peran : '',
+        beban : '',
+        karya : ''
+    }
+]
+},
+form5 : {
+inter : [
+    {
+        id : 1,
+        peran : '',
+        beban : '',
+        karya : ''
+    }
+],
+nasional : [
+    {
+        id : 1,
+        peran : '',
+        beban : '',
+        karya : ''
+    }
+],
+lokal : [
+    {
+        id : 1,
+        peran : '',
+        beban : '',
+        karya : ''
+    }
+],
+},
+form6 : {
+inter : [
+    {
+        id : 1,
+        peran : '',
+        beban : '',
+        karya : ''
+    }
+],
+nasional : [
+    {
+        id : 1,
+        peran : '',
+        beban : '',
+        karya : ''
+    }
+],
+lokal : [
+    {
+        id : 1,
+        peran : '',
+        beban : '',
+        karya : ''
+    }
+]
+}

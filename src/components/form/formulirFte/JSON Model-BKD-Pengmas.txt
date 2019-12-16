@@ -1,0 +1,94 @@
+form1 : {
+    lembagaPemerintahan : [
+        {
+            id : 1,
+            peran : '',
+        }
+    ],
+    instansiLain : [
+        {
+            id : 1,
+            peran : '',
+        }
+    ],
+},
+form2 : {
+    pengembangan : [
+        {
+            id : 1,
+            peran : '',
+        }
+    ],
+},
+form3 : {
+    dalamSemester_inter : [
+        {
+            id : 1,
+            peran : '',
+        }
+    ],
+    dalamSemester_nasional : [
+        {
+            id : 1,
+            peran : '',
+        }
+    ],
+    dalamSemester_lokal : [
+        {
+            id : 1,
+            peran : '',
+        }
+    ],
+    kurangSemester_inter : [
+        {
+            id : 1,
+            peran : '',
+        }
+    ],
+    kurangSemester_nasional : [
+        {
+            id : 1,
+            peran : '',
+        }
+    ],
+    kurangSemester_lokal : [
+        {
+            id : 1,
+            peran : '',
+        }
+    ],
+    insidentil : [
+        {
+            id : 1,
+            peran : '',
+        }
+    ]
+},
+form4 : {
+    keahlian : [
+        {
+            id : 1,
+            peran : '',
+        }
+    ],
+    penugasan : [
+        {
+            id : 1,
+            peran : '',
+        }
+    ],
+    FunsiJabatan : [
+        {
+            id : 1,
+            peran : '',
+        }
+    ]
+},
+form5 : {
+    karyaPengabdian : [
+        {
+            id : 1,
+            peran : '',
+        }
+    ]
+}

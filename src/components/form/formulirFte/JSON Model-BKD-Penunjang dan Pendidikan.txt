@@ -1,0 +1,180 @@
+form1 : {
+    doktor : {
+        qty : '',
+        ket : ''
+    },
+    magister : {
+        qty : '',
+        ket : ''
+    }
+},
+form2 : {
+    diklat : {
+        qty : '',
+        ket : ''
+    }
+},
+form3 : {
+    pekuliahan : {
+        qty : '',
+        ket : ''
+    },
+    menguji : {
+        qty : '',
+        ket : ''
+    },
+    lab : {
+        qty : '',
+        ket : ''
+    },
+    politeknik : {
+        qty : '',
+        ket : ''
+    }
+},
+form4 : {
+    utama_disertasi : {
+        qty : '',
+        ket : ''
+    },
+    utama_tesis : {
+        qty : '',
+        ket : ''
+    },
+    utama_skripsi : {
+        qty : '',
+        ket : ''
+    },
+    utama_laporan : {
+        qty : '',
+        ket : ''
+    },
+    pendamping_disertasi : {
+        qty : '',
+        ket : ''
+    },
+    pendamping_tesis : {
+        qty : '',
+        ket : ''
+    },
+    pendamping_skripsi : {
+        qty : '',
+        ket : ''
+    },
+    pendamping_laporan : {
+        qty : '',
+        ket : ''
+    }
+},
+form5 : {
+    ketua : {
+        qty : '',
+        ket : ''
+    },
+    anggota : {
+        qty : '',
+        ket : ''
+    }
+},
+form6 : {
+    pembinaan : {
+        qty : '',
+        ket : ''
+    }
+},
+form7 : {
+    pengembangan : {
+        qty : '',
+        ket : ''
+    }
+},
+form8 : {
+    orasi : {
+        qty : '',
+        ket : ''
+    }
+},
+form9 : {
+    rektor : {
+        qty : '',
+        ket : ''
+    },
+    pembantuRektor : {
+        qty : '',
+        ket : ''
+    },
+    pembantuDekan : {
+        qty : '',
+        ket : ''
+    },
+    pembantuKetua : {
+        qty : '',
+        ket : ''
+    },
+    dirAkademi : {
+        qty : '',
+        ket : ''
+    },
+    pembantuDirAkademi : {
+        qty : '',
+        ket : ''
+    },
+    ketuaJurusan : {
+        qty : '',
+        ket : ''
+    },
+    sekretarisJurusan : {
+        qty : '',
+        ket : ''
+    }
+},
+form10 : {
+    cangkok : {
+        qty : '',
+        ket : ''
+    },
+    reguler : {
+        qty : '',
+        ket : ''
+    },
+},
+form11 : {
+    datasering : {
+        qty : '',
+        ket : ''
+    },
+    cangkok : {
+        qty : '',
+        ket : ''
+    },
+},
+form12 : {
+    maks : {
+        qty : '',
+        ket : ''
+    },
+    waktu_960 : {
+        qty : '',
+        ket : ''
+    },
+    waktu_640 : {
+        qty : '',
+        ket : ''
+    },
+    waktu_480 : {
+        qty : '',
+        ket : ''
+    },
+    waktu_160 : {
+        qty : '',
+        ket : ''
+    },
+    waktu_80 : {
+        qty : '',
+        ket : ''
+    },
+    waktu_30 : {
+        qty : '',
+        ket : ''
+    }
+}

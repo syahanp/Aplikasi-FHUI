@@ -1,0 +1,27 @@
+@import './color.scss';
+@import './mixins.scss';
+
+$font : 'Open Sans', sans-serif;
+
+:root {
+    font-size: 16px;
+}
+
+body {
+    background-color: $bg;
+}
+
+h1 { @include h1 }
+h2 { @include h2 }
+h3 { @include h3 }
+h4 { @include h4 }
+h5 { @include h5 }
+p { @include paragraph }
+
+
+.jumbotron {
+    background-color: $primary !important;
+    padding: 2.5rem !important;
+    border-radius: 5px;
+    color: #fff;
+}

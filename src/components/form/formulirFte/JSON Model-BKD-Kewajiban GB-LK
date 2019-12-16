@@ -1,0 +1,32 @@
+guruBesar : {
+    karya_Internasional : [
+        {
+            id : 1,
+            tahun : '',
+            karya : ''
+        }
+    ],
+    karya_Internasional_dll : [
+        {
+            id : 1,
+            tahun : '',
+            karya : ''
+        }
+    ],
+},
+lektorKepala : {
+    karya_Internasional : [
+        {
+            id : 1,
+            tahun : '',
+            karya : ''
+        }
+    ],
+    karya_Internasional_dll : [
+        {
+            id : 1,
+            tahun : '',
+            karya : ''
+        }
+    ],
+}
