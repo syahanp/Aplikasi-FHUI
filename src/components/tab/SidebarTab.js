@@ -39,7 +39,7 @@ class SidebarTab extends Component {
                     {
                         React.Children.map(children, (child, props) => {
                             return React.cloneElement(child, {
-                                onCLick : this.setActiveTab,
+                                onCLick : props.onClick,
                                 id : props.id,
                                 ...props
                             })

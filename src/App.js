@@ -18,7 +18,7 @@ class App extends Component {
 
                 <Switch>
                     
-                    <Route exact path='/fte' component={HomeFte}/>
+                    <Route exact path='/' component={HomeFte}/>
 
                     
                 </Switch>

@@ -17,7 +17,7 @@ class HomeFte extends Component {
         super(props);
 
         this.state = {
-            active : ''
+            active : 'pendidikan'
         }
     }
 
@@ -30,6 +30,23 @@ class HomeFte extends Component {
         
     }
 
+    renderForm = (x) => {
+        switch (x) {
+            case 'pendidikan':
+                return <FormPendidikan />
+            case 'penelitian':
+                return <FormPenelitian />
+            case 'pengmas':
+                return <FormPengmas />
+            case 'akademis':
+                return <FormPenunjang />
+            case 'gblk':
+                return <FormGBLK />
+            default:
+                break;
+        }
+    }
+
     render() { 
         const pdf = <FontAwesomeIcon icon={['fas', 'file-pdf']}/>
 
@@ -40,19 +57,19 @@ class HomeFte extends Component {
                     <Row>
                         <Col sm={3}>
                             <SidebarTab>
-                                <SidebarTab.List id='pendidikan' active>
+                                <SidebarTab.List id='pendidikan' onClick={() => this.setState({ active : 'pendidikan' })} active={this.state.active === 'pendidikan' ? true : false}>
                                     Formulir BKD Unsur Pendidikan
                                 </SidebarTab.List>
-                                <SidebarTab.List id='penelitian'>
+                                <SidebarTab.List id='penelitian' onClick={() => this.setState({ active : 'penelitian' })} active={this.state.active === 'penelitian' ? true : false}>
                                     Formulir BKD Unsur Penelitian
                                 </SidebarTab.List>
-                                <SidebarTab.List id='pengmas'>
+                                <SidebarTab.List id='pengmas' onClick={() => this.setState({ active : 'pengmas' })} active={this.state.active === 'pengmas' ? true : false}>
                                     Formulir BKD Unsur Pengmas
                                 </SidebarTab.List>
-                                <SidebarTab.List id='akademis'>
+                                <SidebarTab.List id='akademis' onClick={() => this.setState({ active : 'akademis' })} active={this.state.active === 'akademis' ? true : false}>
                                     Formulir BKD Unsur Penunjang Akademik
                                 </SidebarTab.List>
-                                <SidebarTab.List id='gblk'>
+                                <SidebarTab.List id='gblk' onClick={() => this.setState({ active : 'gblk' })} active={this.state.active === 'gblk' ? true : false}>
                                     Formulir Kewajiban GB-LK
                                 </SidebarTab.List>
                             </SidebarTab>
@@ -62,11 +79,7 @@ class HomeFte extends Component {
                             </Panduan> */}
                         </Col>
                         <Col sm={9}>
-                            {/* <FormPendidikan /> */}
-                            {/* <FormPenelitian /> */}
-                            {/* <FormPenunjang /> */}
-                            {/* <FormPengmas /> */}
-                            <FormGBLK />
+                           {this.renderForm(this.state.active)}
                         </Col>
                     </Row>
                 </Container>
